@@ -1,0 +1,99 @@
+.referral-details-con {
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 0 24px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #6b4fd8;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.referral-details-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #eeedfe;
+  color: #6b4fd8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.divider {
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #f1f0f8;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.detail-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 40px;
+  color: #6b7280;
+}
+
+.nodata {
+  text-align: center;
+  margin-top: 40px;
+  color: #6b7280;
+}
